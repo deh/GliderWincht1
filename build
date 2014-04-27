@@ -1,0 +1,4 @@
+
+echo ""
+echo "compiling"
+javac -d dist/ src/*.java
