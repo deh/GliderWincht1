@@ -531,7 +531,6 @@ public class CanCnvt
         return x.toString();
     }
     
-
     /**
      * Big endian int to be stored in byte array little endian
      * Convert to payload byte array, little endian
