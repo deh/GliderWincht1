@@ -54,13 +54,12 @@ public class MasterController {
 
 	        while (true) { // endless loop
 	        	// advance the time
-                    sleep(100);
+                    sleep(16);
 	        	currentTime += 1;
                         timeMessage.seq = seq;
 //                        timeMessage.dlc = 0;
                         timeMessage.set_byte(currentTime, 0); // time
 	        	outstream.write(timeMessage.msg_prep());
-	        	outstream.flush();
                         seq += 1;
                         
                         torqueMessage.seq = seq;
