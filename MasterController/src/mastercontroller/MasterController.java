@@ -54,7 +54,7 @@ public class MasterController {
 
 	        while (true) { // endless loop
 	        	// advance the time
-                    sleep(1000);
+                    sleep(100);
 	        	currentTime += 1;
                         timeMessage.seq = seq;
 //                        timeMessage.dlc = 0;
